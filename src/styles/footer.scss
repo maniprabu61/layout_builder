@@ -1,0 +1,44 @@
+.footer{
+        background: #616161;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    .menu_icon {
+        width: 60px;
+        height: 40px;
+        align-self: center;
+        cursor: pointer;
+    }
+    .footer_center_section > div {
+        // display: flex;
+        // align-items: center;
+        // margin: 0 2rem 0 0;
+        display: flex;
+        align-items: center;
+        margin: 0 2rem 0 0;
+        padding: 1rem 0;
+        cursor: pointer;
+    }
+
+    .footer_center_section {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: #fff;
+
+        .active{
+            border-top: 3px solid #fff;
+        }
+
+        .mail_icon{
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+        }
+        
+         .alarm_icon, .movie_icon{
+            width: 60px;
+            height: 40px;
+        }
+    }
+}

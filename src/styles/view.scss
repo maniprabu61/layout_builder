@@ -1,0 +1,140 @@
+$bg-clr : #1976d2;
+.view_container{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 5rem;
+
+    .frame_box{
+        border: 1px solid #212121;
+       
+        .view_header{
+            border-bottom: 1px solid #212121;
+            display: flex;
+            padding: 1.5rem 1rem;
+            align-items: center;
+
+            .active { background: $bg-clr !important;}
+
+            .pencil_icon{
+                border-radius: 50%;
+                background: #8b8b8b;
+                padding: 0.5rem;
+                display: flex;
+            }
+            .setting_icon{
+                border-radius: 50%;
+                background: #8b8b8b;
+                padding: 0.5rem;
+                display: flex;
+            }
+            .video_icon{
+                border-radius: 50%;
+                background: #8b8b8b;
+                padding: 0.5rem;
+                display: flex;
+            }
+            hr.line {
+                width: 15rem;
+                height: 0;
+                margin: 0 1rem;
+            }
+        }
+
+
+        .view_body{
+            padding: 3rem;
+            text-align: left;
+
+            .body_content{
+                margin: 0 0 4rem;
+
+                .logo_radio{
+                    display: flex;
+                    label{
+                        margin: 0 1rem 0 0.5rem;
+                    }
+                }
+                .preset_radio{
+                    display: flex;
+                    label{
+                        margin: 0 1rem 0 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    background: #1976d2;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+input[type="radio"] {
+   
+    -webkit-appearance: none;
+    // / Remove most all native input styles /
+    appearance: none;
+    // / For iOS < 15 /
+    background-color: var(--form-background);
+    // / Not removed via appearance /
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+  }
+input[type="radio"]:focus {
+    border: 3px solid #1976d2;
+}
+.blueBg_:focus, .blueBg_:active, .blueBg_:checked{
+    border: 3px solid #1976d2 !important;
+}
+.redBg_:focus, .redBg_:active, .redBg_:checked{
+    border: 3px solid #ff0000 !important;
+}
+// .redBorder {
+//     border: 3px solid #ff0000 !important;
+// }
+
+
+
+// input[type="radio"] {
+//     display: none;
+//   }
+// //   input[type="radio"] + label {
+// //     display: inline-block;
+// //     cursor: pointer;
+// //   }
+//   input[type="radio"] + label:before {
+//     content: "";
+//     display: inline-block;
+//     position: relative;
+//     border: 1px solid #000;
+//     border-radius:50px;
+//     width: 60px;
+//     height: 60px;
+//     margin:0;
+//   }
+
+// input[type="radio"]:checked + label:before {
+//     content: "✔";
+//     font-family: 'lucida grande';
+//     font-size: 45px;
+//     line-height: 60px;
+//     text-align: center;
+//   }

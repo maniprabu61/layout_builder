@@ -1,3 +1,9 @@
+$green: #2ae116;
+$bg-clr : #1976d2;
+
+.test{
+  color: blue;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +11,20 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.App-header2 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  p{
+    color: violet;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +42,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  p{
+    color: $green;
+  }
 }
 
 .App-link {

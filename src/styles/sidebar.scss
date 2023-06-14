@@ -1,0 +1,42 @@
+.sidebar{
+    background: #1976d2;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    // left: 0;
+    // right: 0;
+    z-index: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.25s;
+
+    .sidebar_header {
+        background: #212121;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            color: #fff;
+            margin-left: 2rem;
+        }
+        img{
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            margin: 1rem 0;
+        }
+    }
+}
+.sidemenu_container{display: flex;}
+.blueBg {
+    background-color: #1976d2 !important;
+}
+.redBg{
+    background-color: #ff0000 !important;
+}
